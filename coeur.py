@@ -12,7 +12,7 @@ def dessinb(k):
 
 
 bgcolor("black")
-for i in range(6000):
+for i in range(200):
     goto(dessina(i)*20 , dessinb(i)*20)
     for j in range(5):
         color("#f73487")
